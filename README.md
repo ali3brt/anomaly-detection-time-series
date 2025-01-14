@@ -51,35 +51,7 @@ python src/lstm_model.py
 4. Real-Time Simulation
 Simulate real-time anomaly detection using sliding windows:
 
-bash
-Copy code
-python src/real_time_simulation.py
-Project Structure
-graphql
-Copy code
-Anomaly-Detection-TimeSeries/
-│
-├── data/
-│   ├── data.csv                # Sample dataset for anomaly detection and prediction
-│   ├── metadata.csv            # Metadata describing the dataset
-│
-├── notebooks/
-│   ├── ALL_IN_ONE_Anomaly_Detection.ipynb   # Main Jupyter Notebook with code
-│   ├── EDA_and_Preprocessing.ipynb          # EDA and data preprocessing
-│
-├── src/
-│   ├── anomaly_detection.py    # Script for anomaly detection
-│   ├── lstm_model.py           # LSTM model training and evaluation
-│   ├── preprocessing.py        # Data preprocessing utilities
-│
-├── tests/
-│   ├── test_anomaly_detection.py   # Unit tests for anomaly detection
-│   ├── test_lstm_model.py          # Unit tests for LSTM model
-│
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
-├── LICENSE                     # License file (MIT)
-└── .gitignore                  # Git ignore file
+
 
 
 Dependencies
@@ -108,9 +80,8 @@ Contributions are welcome! Please fork the repository, make changes, and submit 
 Contact
 For questions or suggestions, please contact:
 Ali Barati Brojeni
-Email: [your-email@example.com]
+Email: [ali.barati93@gmail.com]
 
-vbnet
-Copy code
+
 
 Let me know if you’d like to customize any specific sections further!
